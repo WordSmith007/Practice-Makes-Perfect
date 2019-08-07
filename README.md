@@ -1,2 +1,2 @@
-#My Beautiful app
+#MyBeautifulApp
 This is my app
