@@ -1,2 +1,2 @@
-#MyBeautifulApp
-This is my app
+#iPrecision Web Solutions
+Brought to you by Lora Tia
