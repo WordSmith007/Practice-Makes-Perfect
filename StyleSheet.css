@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+
+}
+
+.header{
+    overflow:hidden;
+    background-color: teal;
+    padding: 10px 8px;
+    
+}
+
+.header a{
+    float: left;
+    color:black;
+    text-align:center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 4px;
+    
+}
+
+.header a.logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.header a:hover{
+    background-color: lightsalmon;
+    color: white;
+}
+
+.header a.active{
+    background-color: lemonchiffon;
+    color: black;
+
+}
+
+.header-right {
+    float: right;
+}
+
+
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: rgb(197, 152, 93);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(red, green, blue, alpha);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.header a.dropdown:hover {
+    display: block;
+}
+
+@media screen and (max-width: 400px) {
+    .header a{
+        float:none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+
+}
+
+.column {
+    float: left;
+    padding: 20px;
+}
+
+.column.side {
+    width: 25%;
+}
+
+.column.middle {
+    width: 50%;
+}
+
+.row::after {
+    content: attr(nextsection);
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:400px){
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+.frontpagepic:hover {
+    background-color: thistle;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
+.intro{
+    align:center;
+    color: brown;
+
+}
+
+.footer {
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: center;
+    overflow: hidden;
+    bottom: 0;
+    position: static;
+    width: 100%;
+}
+
+
