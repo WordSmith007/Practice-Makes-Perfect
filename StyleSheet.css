@@ -9,7 +9,7 @@ body {
 
 .header{
     overflow:hidden;
-    background-color: teal;
+    background-color: cornflowerblue;
     padding: 10px 8px;
     
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .header a:hover{
-    background-color: lightsalmon;
+    background-color: lightsteelblue;
     color: white;
 }
 
@@ -58,6 +58,7 @@ body {
 }
 
 .header a.dropdown:hover {
+    content: attr(.dropdowncontent);
     display: block;
 }
 
@@ -99,7 +100,7 @@ body {
 }
 
 .frontpagepic:hover {
-    background-color: thistle;
+    background-color: peachpuff;
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
